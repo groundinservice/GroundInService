@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/kata_bidalan"
+            android:gravity="center"
+            android:inputType="text"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@mipmap/name"
+            android:fontFamily="@font/helvetica"
+            android:gravity="center"
+            android:hint="Name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@mipmap/phone"
+            android:fontFamily="@font/helvetica"
+            android:gravity="center"
+            android:hint="Number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@mipmap/email"
+            android:fontFamily="@font/helvetica"
+            android:gravity="center"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@mipmap/password"
+            android:fontFamily="@font/helvetica"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/register_txt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/helvetica_light"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/helvetica"
+                android:gravity="right"
+                android:text="Already Registered!"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/login_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/helvetica"
+                android:gravity="right"
+                android:text="Login Me."
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

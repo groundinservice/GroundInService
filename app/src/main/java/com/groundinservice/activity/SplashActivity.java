@@ -10,7 +10,7 @@ import com.groundinservice.R;
 
 public class SplashActivity extends BaseActivity {
 
-    private static final int TIME_OUT = 5000;
+    private static final int TIME_OUT = 4000;
 
     ImageView imageView;
 
@@ -34,7 +34,7 @@ public class SplashActivity extends BaseActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
